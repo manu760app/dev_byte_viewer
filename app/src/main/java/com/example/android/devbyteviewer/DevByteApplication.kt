@@ -57,7 +57,7 @@ class DevByteApplication : Application() {
 
 
         val constraints = Constraints.Builder()
-                .setRequiredNetworkType(NetworkType.METERED)
+                .setRequiredNetworkType(NetworkType.UNMETERED)
                 .setRequiresBatteryNotLow(true)
                 .setRequiresCharging(true)
                 .apply {
